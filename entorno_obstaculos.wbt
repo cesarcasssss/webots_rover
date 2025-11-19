@@ -1,0 +1,1410 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  basicTimeStep 16
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.47368373529586993 -0.8767734138941776 -0.08301867021641235 5.299557549703891
+  position 9.736699898549329 6.2118201077290385 7.348077739290219
+  follow "solid"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -8.89 0 -3.98
+  floorSize 50 50
+  floorTileSize 10 10
+}
+Pine {
+  translation -8.78 -6.29 2.83001
+  rotation 0 1 0 -1.5707953071795862
+  name "pine tree(10)"
+}
+BigSassafras {
+  translation -2.5 -10.74 3.68
+  name "sassafras tree(9)"
+}
+Pedestrian {
+  translation -2.68 1.3 -2.2
+  name "pedestrian(11)"
+}
+DEF rock Solid {
+  translation -9.43 0 -16.71
+  rotation 1 0 0 0
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(1)"
+  boundingObject USE rocks
+}
+DEF Poste_1 Solid {
+  translation -3.36 0.82 3.01204e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_1 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_1.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_1
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_1
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+}
+DEF Poste_2 Solid {
+  translation -4.56 0.8 2.93847e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_2 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_2.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_2
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_2
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(2)"
+}
+DEF Poste_3 Solid {
+  translation -5.94 0.78 2.86499e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_3 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_3.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_3
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_3
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(3)"
+}
+DEF Poste_4 Solid {
+  translation -6.99 0.79 2.90184e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_4 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_4.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_4
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_4
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(4)"
+}
+DEF Poste_5 Solid {
+  translation -8.09 0.79 2.9018e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_5 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_5.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_5
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_5
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(5)"
+}
+DEF Poste_6 Solid {
+  translation -9.07 0.82 3.012e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_6 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_6.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_6
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_6
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(6)"
+}
+DEF Poste_7 Solid {
+  translation -10.04 0.79 2.90183e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_7 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_7.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_7
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_7
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(7)"
+}
+DEF Poste_8 Solid {
+  translation -11.28 0.83 3.04873e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_8 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_8.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_8
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_8
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(8)"
+}
+DEF Poste_9 Solid {
+  translation -12.64 0.78 2.86511e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_9 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_9.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_9
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_9
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(9)"
+}
+DEF Poste_10 Solid {
+  translation -13.72 0.82 3.01204e-06
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_10 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_10.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_10
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_10
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(10)"
+}
+DEF Poste_11 Solid {
+  translation -14.28 0.8 -4.77516e-07
+  rotation 1 0 0 1.5708
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_11 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_11.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_11
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_11
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(11)"
+}
+DEF Rover Robot {
+  translation 0 0.48 0
+  rotation 0 0 1 0
+  children [
+    RangeFinder {
+      translation -0.405 0.095 0
+      rotation 0 1 0 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 1 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "depth"
+      fieldOfView 1.5708
+      width 1344
+      height 376
+      minRange 0.3
+      maxRange 20
+      noise 1
+    }
+    Lidar {
+      translation -0.22 0.125 0
+      rotation -0.7071067811859252 1.326789589425184e-06 -0.7071067811859252 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 1
+          }
+          geometry Cylinder {
+            height 0.05
+            radius 0.05
+          }
+        }
+      ]
+      horizontalResolution 360
+      fieldOfView 6.28319
+      verticalFieldOfView 0.1
+      numberOfLayers 1
+      minRange 0.15
+      maxRange 12
+      noise 0.025
+      resolution 0.02
+      defaultFrequency 5.5
+      minFrequency 5.5
+      maxFrequency 10
+    }
+    Gyro {
+      translation 0 0.1 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+    Accelerometer {
+      translation 0 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+    InertialUnit {
+      translation 0 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        DEF imu Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "imu"
+      noise 0.05
+    }
+    GPS {
+      translation 0.1 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      accuracy 1.5
+      speedNoise 0.05
+    }
+    Camera {
+      translation -0.405 0.095 -0.06
+      rotation 0 -1 0 -1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "camera_right"
+      fieldOfView 1.51844
+      width 1344
+      height 376
+      near 0.5
+      far 20
+      noise 0.01
+    }
+    Camera {
+      translation -0.405 0.095 0.06
+      rotation 0 -1 0 -1.5707996938995747
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "camera_left"
+      fieldOfView 1.51844
+      width 1344
+      height 376
+      near 0.5
+      far 20
+      noise 0.01
+    }
+    Solid {
+      translation 0 0 0.33
+      children [
+        DEF Rocker-Boogie-left Group {
+          children [
+            Transform {
+              translation 0.11 -0.068 0
+              rotation 0 0 1 1.0471996938995747
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.3
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation -0.26 -0.13 0
+              rotation 0 0 1 -1.1
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.6
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        DEF boogie_left HingeJoint {
+          jointParameters DEF boogie_left HingeJointParameters {
+            axis 0 0 1
+            anchor 0.22 -0.133 0.33
+            maxStop 1
+          }
+          device [
+            DEF boogie_left PositionSensor {
+              name "left_joint_boggie"
+            }
+          ]
+          endPoint DEF boogie_left Solid {
+            translation 0.22 -0.133 6.661338147750939e-16
+            rotation 0 0 1 0
+            children [
+              DEF middle_wheel_left_boggie HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor -0.17 -0.227587 0.0516
+                }
+                device [
+                  RotationalMotor {
+                    name "middle_wheel_left"
+                  }
+                ]
+                endPoint Solid {
+                  translation -0.17041051839981802 -0.2275872205552426 0.05160000000000002
+                  rotation 0.9990323316930704 -0.03109989345025807 -0.031099788733837536 1.5717678305469123
+                  children [
+                    DEF wheel Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  name "solid(1)"
+                  boundingObject USE wheel
+                  physics Physics {
+                  }
+                }
+              }
+              DEF directional_left_boggie HingeJoint {
+                jointParameters DEF left_boggie_directional HingeJointParameters {
+                  axis 0 1 0
+                  anchor 0.25 -0.16 0
+                }
+                device [
+                  RotationalMotor {
+                    name "left_boggie_directional"
+                    maxTorque 1000000
+                  }
+                ]
+                endPoint Solid {
+                  translation 0.25 -0.16 0
+                  children [
+                    DEF boggie_left_wheel HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis 0 0 1
+                        anchor 0 -0.0673 0.0517
+                      }
+                      device [
+                        RotationalMotor {
+                          name "wheel_boggie_left"
+                          maxTorque 100
+                        }
+                      ]
+                      endPoint Solid {
+                        translation 5.468444707473763e-18 -0.0673188 0.0516547
+                        rotation 1 7.850446673771488e-17 0 1.5708003061004252
+                        children [
+                          Shape {
+                            appearance GenericTireAppearance {
+                            }
+                            geometry DEF rueda Cylinder {
+                              height 0.05
+                              radius 0.12
+                            }
+                          }
+                        ]
+                        boundingObject USE rueda
+                        physics Physics {
+                        }
+                      }
+                    }
+                    DEF boggie_directional_left Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Box {
+                        size 0.05 0.1 0.05
+                      }
+                    }
+                  ]
+                  boundingObject USE boggie_directional_left
+                  physics Physics {
+                  }
+                }
+              }
+              DEF Boggie Group {
+                children [
+                  Transform {
+                    translation -0.17 -0.16 0
+                    children [
+                      Shape {
+                        appearance BrushedSteel {
+                        }
+                        geometry Box {
+                          size 0.05 0.1 0.05
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation 0.116767 -0.0652523 0
+                    rotation 0 0 1 1.1
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.3
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation -0.084 -0.061 0
+                    rotation 0 0 1 -0.9162996938995747
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.25
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+            name "solid(1)"
+            boundingObject USE Boggie
+            physics Physics {
+            }
+          }
+        }
+        DEF directional_left_rocker HingeJoint {
+          jointParameters DEF left_rocker_directional HingeJointParameters {
+            axis 0 1 0
+            anchor -0.52 -0.283 0
+          }
+          device [
+            RotationalMotor {
+              name "left_rocker_directional"
+              maxTorque 1000000
+            }
+          ]
+          endPoint Solid {
+            translation -0.52 -0.293 0
+            children [
+              DEF rocker_left_wheel HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor 0 -0.0673 0.0517
+                }
+                device [
+                  RotationalMotor {
+                    name "wheel_rocker_left"
+                    maxTorque 100
+                  }
+                ]
+                endPoint Solid {
+                  translation 8.961608581950498e-19 -0.0673188 0.0516547
+                  rotation 1 7.850446673771493e-17 -2.3551340021314483e-16 1.5708003061004239
+                  children [
+                    Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry DEF rueda Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  boundingObject USE rueda
+                  physics Physics {
+                  }
+                }
+              }
+              DEF rocker_directional_left Shape {
+                appearance BrushedSteel {
+                }
+                geometry Box {
+                  size 0.05 0.1 0.05
+                }
+              }
+            ]
+            boundingObject USE rocker_directional_left
+            physics Physics {
+            }
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject USE Rocker-Boogie-left
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 0 0 -0.33
+      children [
+        DEF Rocker-Boogie-left Group {
+          children [
+            Transform {
+              translation 0.11 -0.068 0
+              rotation 0 0 1 1.0471996938995747
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.3
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation -0.26 -0.13 0
+              rotation 0 0 1 -1.1
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.6
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        DEF boogie_der HingeJoint {
+          jointParameters DEF boogie_der HingeJointParameters {
+            axis 0 0 1
+            anchor 0.22 -0.133 0
+            maxStop 1
+          }
+          device [
+            DEF boogie_der PositionSensor {
+              name "der_joint_boggie"
+            }
+          ]
+          endPoint DEF boogie_left Solid {
+            translation 0.22 -0.133 0
+            rotation 0 0 1 0
+            children [
+              DEF middle_wheel_der_boggie HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor -0.17 -0.228 -0.0484
+                }
+                device [
+                  RotationalMotor {
+                    name "middle_wheel_der"
+                  }
+                ]
+                endPoint Solid {
+                  translation -0.170411 -0.22758699999999998 -0.0484
+                  rotation 0.9990323316930705 -0.031099893450257907 -0.03109978873383703 1.5717678305469123
+                  children [
+                    DEF wheel Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  name "solid(1)"
+                  boundingObject USE wheel
+                  physics Physics {
+                  }
+                }
+              }
+              DEF directional_der_boggie HingeJoint {
+                jointParameters DEF der_boggie_directional HingeJointParameters {
+                  axis 0 1 0
+                  anchor 0.25 -0.16 0
+                }
+                device [
+                  RotationalMotor {
+                    name "der_boggie_directional"
+                    maxTorque 1000000
+                  }
+                ]
+                endPoint Solid {
+                  translation 0.25 -0.16 0
+                  children [
+                    DEF boggie_left_wheel HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis 0 0 1
+                        anchor 0 -0.0673 0.0517
+                      }
+                      device [
+                        RotationalMotor {
+                          name "wheel_boggie_der"
+                          maxTorque 100
+                        }
+                      ]
+                      endPoint Solid {
+                        translation 1.3444106938820255e-17 -0.0673188 -0.04834530000000003
+                        rotation 1 0 -6.280357339017197e-16 1.5708003061004232
+                        children [
+                          Shape {
+                            appearance GenericTireAppearance {
+                            }
+                            geometry DEF rueda Cylinder {
+                              height 0.05
+                              radius 0.12
+                            }
+                          }
+                        ]
+                        boundingObject USE rueda
+                        physics Physics {
+                        }
+                      }
+                    }
+                    DEF boggie_directional_left Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Box {
+                        size 0.05 0.1 0.05
+                      }
+                    }
+                  ]
+                  boundingObject USE boggie_directional_left
+                  physics Physics {
+                  }
+                }
+              }
+              DEF Boggie Group {
+                children [
+                  Transform {
+                    translation -0.17 -0.16 0
+                    children [
+                      Shape {
+                        appearance BrushedSteel {
+                        }
+                        geometry Box {
+                          size 0.05 0.1 0.05
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation 0.116767 -0.0652523 0
+                    rotation 0 0 1 1.1
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.3
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation -0.084 -0.061 0
+                    rotation 0 0 1 -0.9162996938995747
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.25
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+            boundingObject USE Boggie
+            physics Physics {
+            }
+          }
+        }
+        DEF directional_der_rocker HingeJoint {
+          jointParameters DEF der_rocker_directional HingeJointParameters {
+            axis 0 1 0
+            anchor -0.52 -0.283 0
+          }
+          device [
+            RotationalMotor {
+              name "der_rocker_directional"
+              maxTorque 1000000
+            }
+          ]
+          endPoint Solid {
+            translation -0.52 -0.293 0
+            children [
+              DEF rocker_der_wheel HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor 0 -0.0673 0.0383
+                }
+                device [
+                  RotationalMotor {
+                    name "wheel_rocker_der"
+                    maxTorque 100
+                  }
+                ]
+                endPoint Solid {
+                  translation 6.761016984983825e-18 -0.0673187 -0.03834529999999989
+                  rotation 1 -2.3551340021314497e-16 -8.635491341148647e-16 1.5708003061004232
+                  children [
+                    Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry DEF rueda Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  boundingObject USE rueda
+                  physics Physics {
+                  }
+                }
+              }
+              DEF rocker_directional_der Shape {
+                appearance BrushedSteel {
+                }
+                geometry Box {
+                  size 0.05 0.1 0.05
+                }
+              }
+            ]
+            name "solid(1)"
+            boundingObject USE rocker_directional_der
+            physics Physics {
+            }
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject USE Rocker-Boogie-left
+      physics Physics {
+      }
+    }
+    DEF Chasis Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.5 0.5
+        metalness 0.5
+      }
+      geometry DEF Chasis Box {
+        size 0.8 0.2 0.6
+      }
+    }
+  ]
+  boundingObject USE Chasis
+  physics Physics {
+  }
+  controller "<extern>"
+}
