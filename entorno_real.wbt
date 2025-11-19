@@ -1,0 +1,2354 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  basicTimeStep 16
+  coordinateSystem "NUE"
+  gpsCoordinateSystem "WGS84"
+}
+Viewpoint {
+  orientation -0.3497473726220435 0.927943050473053 0.12883505121954347 0.8098713354252105
+  position 1.057867642363949 0.5883547423210789 1.4513702694775046
+  follow "solid"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+DEF Terreno Solid {
+  translation 0 -7.09852 -77.5355
+  rotation -1 0 0 1.57748
+  scale 20 20 20
+  children [
+    DEF terrain Shape {
+      appearance DryMud {
+      }
+      geometry Mesh {
+        url [
+          "meshes/Terrain.stl"
+        ]
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE terrain
+  locked TRUE
+}
+Pine {
+  translation -21.3575 -7.38 -18.402
+  rotation 0 1 0 1.309
+}
+Pine {
+  translation -48.3769 -7.38 11.3408
+  rotation 0 1 0 2.0944
+  name "pine tree(1)"
+}
+Pine {
+  translation -48.8069 -7.38 7.04066
+  rotation 0 1 0 2.0944
+  name "pine tree(2)"
+}
+Pine {
+  translation -23.9376 -7.38 9.62077
+  rotation 0 1 0 1.5708
+  name "pine tree(3)"
+}
+Pine {
+  translation -75.1813 -7.38 -5.78817
+  rotation 0 1 0 1.5708
+  name "pine tree(4)"
+}
+Pine {
+  translation -14.6709 -7.38 -41.4279
+  rotation 0 1 0 1.0472
+  name "pine tree(5)"
+}
+Pine {
+  translation 19.2465 -7.38 6.9078
+  rotation 0 1 0 1.309
+  name "pine tree(11)"
+}
+Pine {
+  translation 29.9572 -7.38 -7.64783
+  name "pine tree(12)"
+}
+Pine {
+  translation 24.8765 -7.38 -19.1825
+  rotation 0 1 0 -0.261795307179586
+  name "pine tree(13)"
+}
+Pine {
+  translation 5.9267 -7.38 -30.5798
+  rotation 0 1 0 -0.785395307179586
+  name "pine tree(14)"
+}
+Pine {
+  translation 54.8116 -7.38 -4.76417
+  rotation 0 1 0 0.523599
+  name "pine tree(15)"
+}
+Pine {
+  translation 30.9184 -7.38 -30.4425
+  rotation 0 1 0 -1.047195307179586
+  name "pine tree(16)"
+}
+Pine {
+  translation -21.3709 -7.38 -33.8755
+  rotation 0 1 0 1.0472
+  name "pine tree(17)"
+}
+Pine {
+  translation -70.9609 -7.38 -61.1155
+  rotation 0 1 0 0.523599
+  name "pine tree(18)"
+}
+Pine {
+  translation 80.6033 -7.38 -55.5066
+  rotation 0 1 0 1.0472
+  name "pine tree(19)"
+}
+Pine {
+  translation 94.0023 -7.38 -27.4621
+  rotation 0 1 0 1.5708
+  name "pine tree(22)"
+}
+Pine {
+  translation 19.8402 -7.38 -0.0408093
+  rotation 0 1 0 2.35619
+  name "pine tree(23)"
+}
+Pine {
+  translation 69.6989 -7.38 -83.3933
+  rotation 0 1 0 1.8326
+  name "pine tree(27)"
+}
+Pine {
+  translation 53.6512 -7.38 -94.9227
+  rotation 0 1 0 -2.8797853071795863
+  name "pine tree(30)"
+}
+Pine {
+  translation 89.6416 -7.38 -94.4553
+  rotation 0 1 0 1.309
+  name "pine tree(31)"
+}
+Pine {
+  translation 70.0104 -7.38 -94.9227
+  rotation 0 1 0 -1.3089953071795861
+  name "pine tree(32)"
+}
+Pine {
+  translation 91.5112 -7.38 -82.4585
+  rotation 0 1 0 -1.8325953071795862
+  name "pine tree(33)"
+}
+Pine {
+  translation 81.2282 -7.38 -37.4315
+  rotation 0 1 0 1.5708
+  name "pine tree(34)"
+}
+Pine {
+  translation 81.2282 -7.38 -37.4315
+  rotation 0 1 0 -2.3561953071795863
+  name "pine tree(35)"
+}
+Pine {
+  translation 1.30144 -7.38 -19.5142
+  rotation 0 1 0 0.523599
+  name "pine tree(29)"
+}
+Pine {
+  translation -0.8798 -7.38 14.1392
+  rotation 0 1 0 2.35619
+  name "pine tree(28)"
+}
+Pine {
+  translation 39.3155 -7.38 11.6444
+  rotation 0 1 0 -1.3089953071795861
+  name "pine tree(26)"
+}
+Pine {
+  translation 64.7114 -7.38 1.36142
+  rotation 0 1 0 -1.8325953071795862
+  name "pine tree(25)"
+}
+Pine {
+  translation 87.926 -7.38 -0.819823
+  rotation 0 1 0 -2.8797953071795863
+  name "pine tree(24)"
+}
+Pine {
+  translation -85.1709 -7.38 -61.1155
+  rotation 0 1 0 3.14159
+  name "pine tree(21)"
+}
+Pine {
+  translation -85.1709 -7.38 -61.1155
+  rotation 0 1 0 -2.094395307179586
+  name "pine tree(20)"
+}
+Pine {
+  translation -36.9098 -7.38 -8.00993
+  rotation 0 1 0 -1.8325953071795862
+  name "pine tree(6)"
+}
+Pine {
+  translation -19.9958 -7.38 -16.8969
+  rotation 0 1 0 -2.094395307179586
+  name "pine tree(7)"
+}
+Pine {
+  translation -41.4153 -7.38 -20.1751
+  rotation 0 1 0 3.14159
+  name "pine tree(8)"
+}
+Pine {
+  translation -53.611 -5.68 -31.1292
+  rotation 0 1 0 3.14159
+  name "pine tree(9)"
+}
+Pine {
+  translation -39.041 -2.14 -30.2892
+  rotation 0 1 0 3.14159
+  name "pine tree(36)"
+}
+Pine {
+  translation -0.491 -2.14 -30.2892
+  rotation 0 1 0 3.14159
+  name "pine tree(37)"
+}
+Pine {
+  translation 16.989 -2.14 -30.2892
+  rotation 0 1 0 3.14159
+  name "pine tree(38)"
+}
+Pine {
+  translation 31.919 -5.22 -30.2892
+  rotation 0 1 0 3.14159
+  name "pine tree(39)"
+}
+Pine {
+  translation -9.561 -2.14 -34.2892
+  rotation 0 1 0 3.14159
+  name "pine tree(40)"
+}
+Pine {
+  translation -38.4865 -7.38 11.9142
+  rotation 0 1 0 -1.5707953071795862
+  name "pine tree(10)"
+}
+BigSassafras {
+  translation 34.1942 -11.7 18.3814
+  rotation 0 1 0 -2.6179953071795863
+}
+BigSassafras {
+  translation 49.8142 -11.7 18.3814
+  rotation 0 1 0 -0.785395307179586
+  name "sassafras tree(17)"
+}
+BigSassafras {
+  translation 49.8142 -11.7 -51.8286
+  rotation 0 1 0 -1.3089953071795861
+  name "sassafras tree(27)"
+}
+BigSassafras {
+  translation 92.0242 -11.7 -51.8286
+  rotation 0 1 0 -2.3561953071795863
+  name "sassafras tree(28)"
+}
+BigSassafras {
+  translation 91.3142 -11.7 -51.8286
+  rotation 0 1 0 -1.5707953071795862
+  name "sassafras tree(29)"
+}
+BigSassafras {
+  translation 91.3142 -11.7 -47.0986
+  rotation 0 1 0 1.0472
+  name "sassafras tree(30)"
+}
+BigSassafras {
+  translation 91.0942 -11.7 -56.6686
+  rotation 0 1 0 -2.6179953071795863
+  name "sassafras tree(31)"
+}
+BigSassafras {
+  translation 67.9642 -11.7 8.0814
+  rotation 0 1 0 1.309
+  name "sassafras tree(18)"
+}
+BigSassafras {
+  translation 67.9642 -11.7 -70.7086
+  rotation 0 1 0 -2.094395307179586
+  name "sassafras tree(23)"
+}
+BigSassafras {
+  translation 70.4442 -11.7 -70.7086
+  rotation 0 1 0 -2.8797953071795863
+  name "sassafras tree(24)"
+}
+BigSassafras {
+  translation 80.8342 -11.7 -70.7086
+  rotation 0 1 0 -1.5707953071795862
+  name "sassafras tree(25)"
+}
+BigSassafras {
+  translation 80.8342 -11.7 -70.7086
+  rotation 0 1 0 -1.8325953071795862
+  name "sassafras tree(26)"
+}
+BigSassafras {
+  translation 37.6642 -11.7 -14.4286
+  rotation 0 1 0 3.14159
+  name "sassafras tree(19)"
+}
+BigSassafras {
+  translation 37.6642 -11.7 -44.6686
+  rotation 0 1 0 -2.6179953071795863
+  name "sassafras tree(20)"
+}
+BigSassafras {
+  translation 39.6842 -11.7 -44.6686
+  rotation 0 1 0 1.309
+  name "sassafras tree(21)"
+}
+BigSassafras {
+  translation 39.6842 -11.7 -42.8086
+  rotation 0 1 0 -2.8797953071795863
+  name "sassafras tree(22)"
+}
+BigSassafras {
+  translation 72.7545 -11.7 -24.8481
+  rotation 0 1 0 0.261799
+  name "sassafras tree(10)"
+}
+BigSassafras {
+  translation -82.7374 -11.7 -39.7889
+  rotation 0 1 0 3.14159
+  name "sassafras tree(11)"
+}
+BigSassafras {
+  translation -61.2175 -11.7 -42.968
+  rotation 0 1 0 1.309
+  name "sassafras tree(12)"
+}
+BigSassafras {
+  translation 13.9568 -7.7 -63.9638
+  rotation 0 1 0 2.0944
+  name "sassafras tree(13)"
+}
+BigSassafras {
+  translation 27.1117 -4.72 -71.5588
+  rotation 0 1 0 2.0944
+  name "sassafras tree(32)"
+}
+BigSassafras {
+  translation 34.62 -7.43 -75.8938
+  rotation 0 1 0 2.0944
+  name "sassafras tree(33)"
+}
+BigSassafras {
+  translation 29.035 -7.43 -85.5671
+  rotation 0 1 0 2.0944
+  name "sassafras tree(34)"
+}
+BigSassafras {
+  translation 19.185 -7.43 -102.63
+  rotation 0 1 0 2.0944
+  name "sassafras tree(35)"
+}
+BigSassafras {
+  translation 10.935 -7.43 -116.926
+  rotation 0 1 0 2.0944
+  name "sassafras tree(36)"
+}
+BigSassafras {
+  translation 3.32272 -7.43 -112.531
+  rotation 0 1 0 2.0944
+  name "sassafras tree(37)"
+}
+BigSassafras {
+  translation -12.857 -7.43 -111.816
+  rotation 0 1 0 2.0944
+  name "sassafras tree(38)"
+}
+BigSassafras {
+  translation -24.6779 -7.43 -104.991
+  rotation 0 1 0 2.0944
+  name "sassafras tree(39)"
+}
+BigSassafras {
+  translation -21.8395 -10.01 -128.316
+  rotation 0 1 0 2.8798
+  name "sassafras tree(40)"
+}
+BigSassafras {
+  translation -14.963 -10.01 -153.981
+  rotation 0 -1 0 -1.8326053071795858
+  name "sassafras tree(41)"
+}
+BigSassafras {
+  translation 2.94508 -10.01 -158.777
+  rotation 0 1 0 -0.5235853071795864
+  name "sassafras tree(42)"
+}
+BigSassafras {
+  translation 10.1099 -10.01 -171.186
+  rotation 0 1 0 -0.5235853071795864
+  name "sassafras tree(43)"
+}
+BigSassafras {
+  translation 25.9666 -10.01 -162.031
+  rotation 0 1 0 -2.879775307179586
+  name "sassafras tree(44)"
+}
+BigSassafras {
+  translation 30.3228 -10.01 -145.775
+  rotation 0 -1 0 1.83258
+  name "sassafras tree(45)"
+}
+BigSassafras {
+  translation 33.2787 -10.01 -134.747
+  rotation 0 -1 0 0.523586
+  name "sassafras tree(46)"
+}
+BigSassafras {
+  translation 22.6837 -10.01 -116.398
+  rotation 0 -1 0 0.523586
+  name "sassafras tree(47)"
+}
+BigSassafras {
+  translation 46.0787 -10.01 -156.917
+  rotation 0 1 0 0.523612
+  name "sassafras tree(48)"
+}
+BigSassafras {
+  translation 59.1294 -10.01 -164.452
+  rotation 0 1 0 -1.8325853071795866
+  name "sassafras tree(49)"
+}
+BigSassafras {
+  translation 54.4868 -10.01 -147.123
+  rotation 0 1 0 2.09441
+  name "sassafras tree(50)"
+}
+BigSassafras {
+  translation 69.9318 -10.01 -120.373
+  rotation 0 1 0 2.09441
+  name "sassafras tree(51)"
+}
+BigSassafras {
+  translation 79.0468 -10.01 -104.587
+  rotation 0 1 0 -0.26178530717958637
+  name "sassafras tree(52)"
+}
+BigSassafras {
+  translation 85.7707 -10.01 -129.682
+  rotation 0 1 0 0.523613
+  name "sassafras tree(53)"
+}
+BigSassafras {
+  translation 76.9857 -10.01 -144.898
+  rotation 0 1 0 -1.8325853071795866
+  name "sassafras tree(54)"
+}
+BigSassafras {
+  translation 76.9857 -10.01 -144.898
+  rotation 0 1 0 -1.8325853071795866
+  name "sassafras tree(55)"
+}
+BigSassafras {
+  translation 27.3553 -11.7 17.544
+  rotation 0 1 0 1.0472
+  name "sassafras tree(14)"
+}
+BigSassafras {
+  translation 18.0043 -11.7 -16.9293
+  rotation 0 1 0 -2.3561953071795863
+  name "sassafras tree(15)"
+}
+BigSassafras {
+  translation 66.2948 -11.7 -9.39266
+  rotation 0 1 0 -2.6179953071795863
+  name "sassafras tree(16)"
+}
+BigSassafras {
+  translation -49.2309 -11.7 9.53816
+  rotation 0 1 0 2.618
+  name "sassafras tree(1)"
+}
+BigSassafras {
+  translation -35.7774 -11.7 -6.42864
+  rotation 0 1 0 -2.8797953071795863
+  name "sassafras tree(2)"
+}
+BigSassafras {
+  translation -66.0848 -11.7 -0.51501
+  rotation 0 1 0 -2.8797953071795863
+  name "sassafras tree(3)"
+}
+BigSassafras {
+  translation 21.2143 -11.7 -31.584
+  rotation 0 1 0 -2.6179953071795863
+  name "sassafras tree(4)"
+}
+BigSassafras {
+  translation 40.3352 -7.2 -62.4285
+  rotation 0 1 0 3.14159
+  name "sassafras tree(5)"
+}
+BigSassafras {
+  translation -65.7152 -11.7 -15.4469
+  rotation 0 1 0 1.0472
+  name "sassafras tree(6)"
+}
+BigSassafras {
+  translation -24.098 -11.7 12.1993
+  rotation 0 1 0 0.523599
+  name "sassafras tree(7)"
+}
+BigSassafras {
+  translation -83.4711 -11.7 -19.6548
+  rotation 0 1 0 -1.8325953071795862
+  name "sassafras tree(8)"
+}
+BigSassafras {
+  translation -78.3556 -11.7 0.00243236
+  rotation 0 1 0 2.0944
+  name "sassafras tree(9)"
+}
+Pedestrian {
+  translation 7.68 0.59 -21.54
+  rotation 0 1 0 -0.523595307179586
+}
+Pedestrian {
+  translation 8.36023 0.59 -21.105
+  rotation 0 1 0 0.523602
+  name "pedestrian(13)"
+}
+Pedestrian {
+  translation 67.6047 0.59 -24.8643
+  rotation 0 1 0 -1.047195307179586
+  name "pedestrian(14)"
+}
+Pedestrian {
+  translation 68.4897 0.59 -23.4049
+  rotation 0 1 0 2.24093e-06
+  name "pedestrian(15)"
+}
+Pedestrian {
+  translation 68.5897 0.59 -22.1749
+  rotation 0 1 0 -1.047195307179586
+  name "pedestrian(16)"
+}
+Pedestrian {
+  translation 52.6797 0.59 -49.8047
+  rotation 0 1 0 -1.5707953071795862
+  name "pedestrian(17)"
+}
+Pedestrian {
+  translation 60.4897 0.59 -60.2647
+  rotation 0 -1 0 0.2617980000000003
+  name "pedestrian(18)"
+}
+Pedestrian {
+  translation 64.2727 0.41 -105.477
+  rotation 0 -1 0 0.2617980000000003
+  name "pedestrian(19)"
+}
+Pedestrian {
+  translation 64.911 0.41 -107.388
+  rotation 0 1 0 0.5236
+  name "pedestrian(20)"
+}
+Pedestrian {
+  translation 10.04 0.59 -21.44
+  rotation 0 1 0 -0.785395307179586
+  name "pedestrian(12)"
+}
+Pedestrian {
+  translation -10.92 0.59 -6.25
+  name "pedestrian(1)"
+}
+Pedestrian {
+  translation -10.18 0.59 -6.15
+  rotation 0 1 0 1.0472
+  name "pedestrian(2)"
+}
+Pedestrian {
+  translation -9.61 0.59 -6.86404
+  rotation 0 1 0 1.0472
+  name "pedestrian(3)"
+}
+Pedestrian {
+  translation -8.53142 0.59 -6.19904
+  rotation 0 1 0 1.0472
+  name "pedestrian(4)"
+}
+Pedestrian {
+  translation -69.8069 0.59 -41.534
+  rotation 0 -1 0 -0.2618053071795865
+  name "pedestrian(5)"
+}
+Pedestrian {
+  translation -69.2269 0.59 -42.2652
+  rotation 0 1 0 1.5708
+  name "pedestrian(6)"
+}
+Pedestrian {
+  translation -70.3911 0.59 -42.8952
+  rotation 0 1 0 1.0472
+  name "pedestrian(7)"
+}
+Pedestrian {
+  translation -72.1161 0.59 -39.6342
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "pedestrian(8)"
+}
+Pedestrian {
+  translation -71.2661 0.59 -40.8332
+  rotation 0 -1 0 -0.5236053071795865
+  name "pedestrian(9)"
+}
+Pedestrian {
+  translation -60.4761 0.59 -59.2487
+  rotation 0 -1 0 -5.307179586466759e-06
+  name "pedestrian(10)"
+}
+Pedestrian {
+  translation -23.033 0.59 -45.7687
+  rotation 0 1 0 -1.047195307179586
+  name "pedestrian(11)"
+}
+DEF rock Solid {
+  translation -14.75 -2.42 7.72
+  rotation 1 0 0 0
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 55.7079 -2.42 11.9594
+  rotation 0 1 0 -2.8797953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(4)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 44.5269 -2.42 -29.7686
+  rotation 0 1 0 -2.8797953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(5)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 34.1433 -0.78 -26.9863
+  rotation 0 1 0 -2.8797953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(6)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 22.2846 -0.78 -121.441
+  rotation 0 -1 0 2.8797953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(7)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 22.2846 -0.78 -121.441
+  rotation 0 1 0 0.523597
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(8)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 55.5162 -4.38 -130.197
+  rotation 0 1 0 -2.6179953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(9)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 92.8612 -4.38 -65.5127
+  rotation 0 1 0 -2.6179953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(10)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 88.0397 -4.38 -42.4638
+  rotation 0 1 0 -2.6179953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(11)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation 52.4097 -4.38 -104.176
+  rotation 0 -1 0 1.0472
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(12)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -50.3012 -4.93 -44.876
+  rotation 0 -1 0 1.0472
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(13)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -53.6962 -5.28 -50.7564
+  rotation 0 -1 0 1.0472
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(14)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -58.9012 -4.38 -59.772
+  rotation 0 1 0 0.261797
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(15)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -67.6025 -5.07 -47.5438
+  rotation 0 1 0 0.261797
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(17)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -23.0875 -1.72 -60.3159
+  rotation 0 1 0 -2.3561953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(18)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -12.0919 -1.72 -60.0683
+  rotation 0 1 0 -2.3561953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(19)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -20.5485 -4.62 -44.7663
+  rotation 0 1 0 -2.3561953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(20)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -55.8612 -4.38 -54.5067
+  rotation 0 1 0 -2.6179953071795863
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(16)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -40.84 -4.74 -3.37
+  rotation 0 1 0 -1.5707953071795862
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(2)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -57.626 -4.03 10.956
+  rotation 0 1 0 2.3562
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(3)"
+  boundingObject USE rocks
+}
+DEF rock Solid {
+  translation -36.68 -4.8 -4.83
+  rotation 1 0 0 0
+  scale 0.05 0.05 0.05
+  children [
+    DEF rocks Shape {
+      appearance Soil {
+      }
+      geometry Mesh {
+        url [
+          "meshes/rock.obj"
+        ]
+      }
+    }
+  ]
+  name "rock(1)"
+  boundingObject USE rocks
+}
+DEF Poste_1 Solid {
+  translation -44.67 -0.11 9.68953e-07
+  rotation -1 -1.91796e-08 1.91796e-08 -1.5707953071795862
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_1 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_1.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_1
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_1
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+}
+DEF Poste_2 Solid {
+  translation -67.5427 0.220047 -29.8547
+  rotation 0.9831056944488314 -0.1294279597735375 0.1294279597735375 1.58783
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_2 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_2.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_2
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_2
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(2)"
+}
+DEF Poste_3 Solid {
+  translation -42.91 -0.120053 -52.51
+  rotation -0.1861570160863869 -0.6947460600350939 0.6947470600351803 -2.7734953071795863
+  children [
+    Group {
+      children [
+        Transform {
+          translation 1.7735e-09 -3.01391e-09 0
+          rotation 0.5000001748438417 0.8660253028382762 4.152501452078106e-09 3.14159
+          children [
+            DEF Poste_3 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_3.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.5708
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_3
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_3
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(3)"
+}
+DEF Poste_4 Solid {
+  translation 6.12378 0 -14.2242
+  rotation 0.7745961212986637 -0.44721407003194 0.44721407003194 1.82347
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_4 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_4.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_4
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_4
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(4)"
+}
+DEF Poste_5 Solid {
+  translation 6.90257 -1.19589e-05 -17.1332
+  rotation 0.37796304747046094 -0.6546520822213608 0.6546560822218632 2.41886
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_5 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_5.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_5
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_5
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(5)"
+}
+DEF Poste_6 Solid {
+  translation 59.9362 0.2 -21.3779
+  rotation 0.9351124260663068 -0.25056311416434823 0.2505651141652595 1.63783
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_6 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_6.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_6
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_6
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(6)"
+}
+DEF Poste_7 Solid {
+  translation 58.9362 0.429993 -23.1091
+  rotation -0.9351130202419243 0.25056300542381216 -0.25056300542381216 -1.637825307179586
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_7 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_7.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_7
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_7
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(7)"
+}
+DEF Poste_8 Solid {
+  translation 49.3229 -0.24 -74.352
+  rotation -0.5773489358550934 0.5773499358549823 -0.5773519358547601 -2.094395307179586
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_8 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_8.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_8
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_8
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(8)"
+}
+DEF Poste_9 Solid {
+  translation 48.3229 -0.270007 -76.0842
+  rotation -0.9831055672070398 0.12942894302144423 -0.12942794302188446 -1.5878253071795863
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_9 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_9.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_9
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_9
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(9)"
+}
+DEF Poste_10 Solid {
+  translation -3.95811 -0.650597 -126.476
+  rotation -0.9351127859349406 -0.25056194264161724 0.25056494264093043 -1.637825307179586
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_10 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_10.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_10
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_10
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(10)"
+}
+DEF Poste_11 Solid {
+  translation -5.77419 -0.650597 -125.925
+  rotation -0.6776599336401542 -0.5199869490802804 0.5199909490798887 -1.9504353071795864
+  children [
+    Group {
+      children [
+        Transform {
+          rotation 0 0 -1 1.047195613280012
+          children [
+            DEF Poste_11 Shape {
+              appearance Appearance {
+                material Material {
+                  diffuseColor 0 0 0
+                  shininess 0
+                }
+                texture ImageTexture {
+                  url [
+                    "pictures/Poste_11.jpeg"
+                  ]
+                }
+                textureTransform TextureTransform {
+                  rotation 1.57
+                }
+              }
+              geometry Box {
+                size 0.002 0.2 0.2
+              }
+            }
+          ]
+        }
+        Transform {
+          translation -0.09 0.05 0
+          rotation 1 0 0 3.14159
+          children [
+            USE Poste_11
+          ]
+        }
+        Transform {
+          translation -0.0011622 0.102404 0
+          rotation 0 0 1 1.04721
+          children [
+            USE Poste_11
+          ]
+        }
+      ]
+    }
+    Transform {
+      translation -0.03 0.0499992 0.34
+      rotation 1 0 0 1.5708
+      children [
+        Shape {
+          appearance BrushedAluminium {
+          }
+          geometry Cylinder {
+            height 1
+            radius 0.01
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(11)"
+}
+DEF Rover Robot {
+  translation 0 -0.2 0
+  rotation 0 0 1 0
+  children [
+    RangeFinder {
+      translation -0.405 0.095 0
+      rotation 0 1 0 1.57079632679
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 1 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "depth"
+      fieldOfView 1.5708
+      width 1344
+      height 376
+      minRange 0.15
+      maxRange 20
+      noise 0.1
+    }
+    Lidar {
+      translation -0.22 0.125 0
+      rotation -0.7071067811859252 1.326789589425184e-06 -0.7071067811859252 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 1
+          }
+          geometry Cylinder {
+            height 0.05
+            radius 0.05
+          }
+        }
+      ]
+      horizontalResolution 360
+      fieldOfView 6.28319
+      verticalFieldOfView 0.1
+      numberOfLayers 1
+      minRange 0.15
+      maxRange 12
+      noise 0.025
+      resolution 0.02
+      defaultFrequency 5.5
+      minFrequency 5.5
+      maxFrequency 10
+    }
+    Gyro {
+      translation 1.87158e-08 0.1 1.41422e-08
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+    Accelerometer {
+      translation 0 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+    InertialUnit {
+      translation 0 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 3.14159
+      children [
+        DEF imu Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 1
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "imu"
+    }
+    GPS {
+      translation 0.1 0.105 0
+      rotation -3.3905013482585576e-09 0.7071062811861719 0.7071072811865696 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 1 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+    }
+    Camera {
+      translation -0.405 0.095 -0.06
+      rotation 0 1 0 1.57079632679
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "camera_right"
+      fieldOfView 1.5708
+      width 1344
+      height 376
+      near 0.5
+      far 20
+      noise 0.01
+    }
+    Camera {
+      translation -0.405 0.095 0.06
+      rotation 0 1 0 1.57079632679
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 1 0 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "camera_left"
+      fieldOfView 1.5708
+      width 1344
+      height 376
+      near 0.5
+      far 20
+      noise 0.01
+    }
+    Solid {
+      translation 0 0 0.33
+      children [
+        DEF Rocker-Boogie-left Group {
+          children [
+            Transform {
+              translation 0.11 -0.068 0
+              rotation 0 0 1 1.0471996938995747
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.3
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation -0.26 -0.13 0
+              rotation 0 0 1 -1.1
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.6
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        DEF boogie_left HingeJoint {
+          jointParameters DEF boogie_left HingeJointParameters {
+            axis 0 0 1
+            anchor 0.22 -0.133 0.33
+            maxStop 1
+          }
+          device [
+            DEF boogie_left PositionSensor {
+              name "left_joint_boggie"
+            }
+          ]
+          endPoint DEF boogie_left Solid {
+            translation 0.22 -0.133 6.661338147750939e-16
+            rotation 0 0 1 0
+            children [
+              DEF middle_wheel_left_boggie HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor -0.17 -0.227587 0.0516
+                }
+                device [
+                  RotationalMotor {
+                    name "middle_wheel_left"
+                  }
+                ]
+                endPoint Solid {
+                  translation -0.17041051839981802 -0.2275872205552426 0.05160000000000002
+                  rotation 0.9990323316930704 -0.03109989345025807 -0.031099788733837536 1.5717678305469123
+                  children [
+                    DEF wheel Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  name "solid(1)"
+                  boundingObject USE wheel
+                  physics Physics {
+                  }
+                }
+              }
+              DEF directional_left_boggie HingeJoint {
+                jointParameters DEF left_boggie_directional HingeJointParameters {
+                  axis 0 1 0
+                  anchor 0.25 -0.16 0
+                }
+                device [
+                  RotationalMotor {
+                    name "left_boggie_directional"
+                    maxTorque 1000000
+                  }
+                ]
+                endPoint Solid {
+                  translation 0.25 -0.16 0
+                  children [
+                    DEF boggie_left_wheel HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis 0 0 1
+                        anchor 0 -0.0673 0.0517
+                      }
+                      device [
+                        RotationalMotor {
+                          name "wheel_boggie_left"
+                          maxTorque 100
+                        }
+                      ]
+                      endPoint Solid {
+                        translation 5.468444707473763e-18 -0.0673188 0.0516547
+                        rotation 1 7.850446673771488e-17 0 1.5708003061004252
+                        children [
+                          Shape {
+                            appearance GenericTireAppearance {
+                            }
+                            geometry DEF rueda Cylinder {
+                              height 0.05
+                              radius 0.12
+                            }
+                          }
+                        ]
+                        boundingObject USE rueda
+                        physics Physics {
+                        }
+                      }
+                    }
+                    DEF boggie_directional_left Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Box {
+                        size 0.05 0.1 0.05
+                      }
+                    }
+                  ]
+                  boundingObject USE boggie_directional_left
+                  physics Physics {
+                  }
+                }
+              }
+              DEF Boggie Group {
+                children [
+                  Transform {
+                    translation -0.17 -0.16 0
+                    children [
+                      Shape {
+                        appearance BrushedSteel {
+                        }
+                        geometry Box {
+                          size 0.05 0.1 0.05
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation 0.116767 -0.0652523 0
+                    rotation 0 0 1 1.1
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.3
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation -0.084 -0.061 0
+                    rotation 0 0 1 -0.9162996938995747
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.25
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+            name "solid(1)"
+            boundingObject USE Boggie
+            physics Physics {
+            }
+          }
+        }
+        DEF directional_left_rocker HingeJoint {
+          jointParameters DEF left_rocker_directional HingeJointParameters {
+            axis 0 1 0
+            anchor -0.52 -0.283 0
+          }
+          device [
+            RotationalMotor {
+              name "left_rocker_directional"
+              maxTorque 1000000
+            }
+          ]
+          endPoint Solid {
+            translation -0.52 -0.293 0
+            children [
+              DEF rocker_left_wheel HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor 0 -0.0673 0.0517
+                }
+                device [
+                  RotationalMotor {
+                    name "wheel_rocker_left"
+                    maxTorque 100
+                  }
+                ]
+                endPoint Solid {
+                  translation 8.961608581950498e-19 -0.0673188 0.0516547
+                  rotation 1 7.850446673771493e-17 -2.3551340021314483e-16 1.5708003061004239
+                  children [
+                    Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry DEF rueda Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  boundingObject USE rueda
+                  physics Physics {
+                  }
+                }
+              }
+              DEF rocker_directional_left Shape {
+                appearance BrushedSteel {
+                }
+                geometry Box {
+                  size 0.05 0.1 0.05
+                }
+              }
+            ]
+            boundingObject USE rocker_directional_left
+            physics Physics {
+            }
+          }
+        }
+      ]
+      name "solid(2)"
+      boundingObject USE Rocker-Boogie-left
+      physics Physics {
+      }
+    }
+    Solid {
+      translation 0 0 -0.33
+      children [
+        DEF Rocker-Boogie-left Group {
+          children [
+            Transform {
+              translation 0.11 -0.068 0
+              rotation 0 0 1 1.0471996938995747
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.3
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+            Transform {
+              translation -0.26 -0.13 0
+              rotation 0 0 1 -1.1
+              children [
+                Shape {
+                  appearance BrushedAluminium {
+                  }
+                  geometry Cylinder {
+                    height 0.6
+                    radius 0.03
+                  }
+                }
+              ]
+            }
+          ]
+        }
+        DEF boogie_der HingeJoint {
+          jointParameters DEF boogie_der HingeJointParameters {
+            axis 0 0 1
+            anchor 0.22 -0.133 0
+            maxStop 1
+          }
+          device [
+            DEF boogie_der PositionSensor {
+              name "der_joint_boggie"
+            }
+          ]
+          endPoint DEF boogie_left Solid {
+            translation 0.22 -0.133 0
+            rotation 0 0 1 0
+            children [
+              DEF middle_wheel_der_boggie HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor -0.17 -0.228 -0.0484
+                }
+                device [
+                  RotationalMotor {
+                    name "middle_wheel_der"
+                  }
+                ]
+                endPoint Solid {
+                  translation -0.170411 -0.22758699999999998 -0.0484
+                  rotation 0.9990323316930705 -0.031099893450257907 -0.03109978873383703 1.5717678305469123
+                  children [
+                    DEF wheel Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  name "solid(1)"
+                  boundingObject USE wheel
+                  physics Physics {
+                  }
+                }
+              }
+              DEF directional_der_boggie HingeJoint {
+                jointParameters DEF der_boggie_directional HingeJointParameters {
+                  axis 0 1 0
+                  anchor 0.25 -0.16 0
+                }
+                device [
+                  RotationalMotor {
+                    name "der_boggie_directional"
+                    maxTorque 1000000
+                  }
+                ]
+                endPoint Solid {
+                  translation 0.25 -0.16 0
+                  children [
+                    DEF boggie_left_wheel HingeJoint {
+                      jointParameters HingeJointParameters {
+                        axis 0 0 1
+                        anchor 0 -0.0673 0.0517
+                      }
+                      device [
+                        RotationalMotor {
+                          name "wheel_boggie_der"
+                          maxTorque 100
+                        }
+                      ]
+                      endPoint Solid {
+                        translation 1.3444106938820255e-17 -0.0673188 -0.04834530000000003
+                        rotation 1 0 -6.280357339017197e-16 1.5708003061004232
+                        children [
+                          Shape {
+                            appearance GenericTireAppearance {
+                            }
+                            geometry DEF rueda Cylinder {
+                              height 0.05
+                              radius 0.12
+                            }
+                          }
+                        ]
+                        boundingObject USE rueda
+                        physics Physics {
+                        }
+                      }
+                    }
+                    DEF boggie_directional_left Shape {
+                      appearance BrushedSteel {
+                      }
+                      geometry Box {
+                        size 0.05 0.1 0.05
+                      }
+                    }
+                  ]
+                  boundingObject USE boggie_directional_left
+                  physics Physics {
+                  }
+                }
+              }
+              DEF Boggie Group {
+                children [
+                  Transform {
+                    translation -0.17 -0.16 0
+                    children [
+                      Shape {
+                        appearance BrushedSteel {
+                        }
+                        geometry Box {
+                          size 0.05 0.1 0.05
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation 0.116767 -0.0652523 0
+                    rotation 0 0 1 1.1
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.3
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                  Transform {
+                    translation -0.084 -0.061 0
+                    rotation 0 0 1 -0.9162996938995747
+                    children [
+                      Shape {
+                        appearance BrushedAluminium {
+                        }
+                        geometry Cylinder {
+                          height 0.25
+                          radius 0.03
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+            boundingObject USE Boggie
+            physics Physics {
+            }
+          }
+        }
+        DEF directional_der_rocker HingeJoint {
+          jointParameters DEF der_rocker_directional HingeJointParameters {
+            axis 0 1 0
+            anchor -0.52 -0.283 0
+          }
+          device [
+            RotationalMotor {
+              name "der_rocker_directional"
+              maxTorque 1000000
+            }
+          ]
+          endPoint Solid {
+            translation -0.52 -0.293 0
+            children [
+              DEF rocker_der_wheel HingeJoint {
+                jointParameters HingeJointParameters {
+                  axis 0 0 1
+                  anchor 0 -0.0673 0.0383
+                }
+                device [
+                  RotationalMotor {
+                    name "wheel_rocker_der"
+                    maxTorque 100
+                  }
+                ]
+                endPoint Solid {
+                  translation 6.761016984983825e-18 -0.0673187 -0.03834529999999989
+                  rotation 1 -2.3551340021314497e-16 -8.635491341148647e-16 1.5708003061004232
+                  children [
+                    Shape {
+                      appearance GenericTireAppearance {
+                      }
+                      geometry DEF rueda Cylinder {
+                        height 0.05
+                        radius 0.12
+                      }
+                    }
+                  ]
+                  boundingObject USE rueda
+                  physics Physics {
+                  }
+                }
+              }
+              DEF rocker_directional_der Shape {
+                appearance BrushedSteel {
+                }
+                geometry Box {
+                  size 0.05 0.1 0.05
+                }
+              }
+            ]
+            name "solid(1)"
+            boundingObject USE rocker_directional_der
+            physics Physics {
+            }
+          }
+        }
+      ]
+      name "solid(1)"
+      boundingObject USE Rocker-Boogie-left
+      physics Physics {
+      }
+    }
+    DEF Chasis Shape {
+      appearance PBRAppearance {
+        baseColor 0.5 0.5 0.5
+        metalness 0.5
+      }
+      geometry DEF Chasis Box {
+        size 0.8 0.2 0.6
+      }
+    }
+  ]
+  boundingObject USE Chasis
+  physics Physics {
+  }
+  controller "<extern>"
+}
